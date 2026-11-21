@@ -12,5 +12,6 @@ Workflow
 2. The author opens a pull request targeting main in sxauwj/sglang.
 3. The reviewer leaves feedback on the proposed change.
 4. The author updates the same branch to address the feedback.
-5. The reviewer approves the updated pull request.
-6. The author merges the pull request.
+5. The author checks the PR diff, runs git diff --check main...HEAD, and records the validation results in the PR description.
+6. The reviewer approves the updated pull request.
+7. The author merges the pull request.
